@@ -1,0 +1,7 @@
+set title "Selection Sort"
+set style data line
+set xlabel "Input Size"
+set ylabel "Operation Count"
+set xrange [10:100]
+set yrange [10:1000]
+plot "a.txt" using 1:2 title "All Cases"
